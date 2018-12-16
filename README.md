@@ -33,6 +33,7 @@ Edit $TString filedir$ in plot.cc
 Save plots
 ```bash
 root -b <<EOF
+.L plot.cc
 SaveAll()
 EOF
 ```

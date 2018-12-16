@@ -24,7 +24,7 @@ int sampleindex[nfile]={0,1,1,2,2,3,3,3,4,5};
 #include"TCanvas.h"
 #include"TLine.h"
 using namespace std;
-TString filedir="/data7/Users/hsseo/SKFlatOutput/v949cand2_2/SMPValidation/2017/";
+TString filedir="/data7/Users/salee/SKFlatOutput/v949cand2_2/SMPValidation/2017/";
 const int nfile=12;
 TString filenames[nfile]={"DATA/SMPValidation_DoubleMuon_B.root","DATA/SMPValidation_DoubleMuon_C.root","DATA/SMPValidation_DoubleMuon_D.root","DATA/SMPValidation_DoubleMuon_E.root","DATA/SMPValidation_DoubleMuon_F.root","SMPValidation_DYJets.root","SMPValidation_DYJets.root","SMPValidation_WW_pythia.root","SMPValidation_WZ_pythia.root","SMPValidation_ZZ_pythia.root","SMPValidation_WJets_MG.root","SMPValidation_TTLL_powheg.root"};
 int sampleindex[nfile]={0,0,0,0,0,1,2,3,3,3,4,5};

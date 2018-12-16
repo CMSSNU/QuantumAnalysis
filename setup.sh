@@ -6,7 +6,7 @@ export SKFlatV="v949cand2_2"
 mkdir -p $SKFlat_WD/data/$SKFlatV
 
 export SKFlatSEDir="/xrootd/store/user/$USER/SKFlatOutput/"
-export SKFlatLogEmail=''
+export SKFlatLogEmail='d4space@gmail.com'
 
 if [[ $HOSTNAME == *"ui10.sdfarm.kr"* ]]; then
   echo "Working on KISTI"
